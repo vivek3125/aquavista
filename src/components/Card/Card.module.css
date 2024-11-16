@@ -1,0 +1,140 @@
+.card{
+    /* border: 1px solid red; */
+    width: 15rem;
+    border-radius: 0.2rem;
+    /* height: 20rem; */
+    background-color: var(--color-black2);
+    /* box-shadow: 0 0 10px var(--color-black5);  */
+    padding-bottom: 0.5rem;
+}
+.card:hover{
+    background-color: var(--color-black4);
+}
+.cardimage{
+    width: 15rem;
+    height: 15rem;
+    /* border: 1px solid lightblue; */
+}
+.cardimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+.card .title{
+    margin: 0;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    /* border: 1px solid lightblue; */
+}
+.card .title:hover{
+    color: var(--color-button);
+}
+.card .author{
+    margin: 0;
+    padding: 0rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255,255,255,0.8);
+    text-align: left;
+    /* border: 1px solid lightblue; */
+}
+
+.card .infocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    /* padding-left: 20px; */
+    /* color: white; */
+    /* font-size: 17px; */
+    width: 100%;
+    /* border: 1px solid lightblue; */
+}
+.card .infocontainer .price{
+    flex: 1;
+    height: 100%;
+    padding: 0rem 0.5rem;
+    /* border: 1px solid brown; */
+}
+/* .card .infocontainer .price p{
+    margin: 0;
+    padding: 0rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255,255,255,0.8);
+    text-decoration-line: line-through;
+} */
+.card .infocontainer .price .mrp{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    color: rgb(255,255,255,0.8);
+    text-decoration-line: line-through;
+}
+.card .infocontainer .price .sellingprice{
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+/* .card .infocontainer .price span{
+    display: inline-block;
+    margin: 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+} */
+.card .infocontainer .price .discount{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-button);
+}
+.card .infocontainer .price .instock{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-green);
+}
+.card .infocontainer .price .outofstock{
+    margin: 0;
+    padding: 0rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-red);
+}
+.card .infocontainer .addToCart{
+    padding: 0.5rem;
+    /* width: 2rem; */
+    /* border: 1px solid lightblue; */
+    height: 100%;
+}
+.card .infocontainer .addToCart button{
+    width: 3rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    background-color: var(--color-button);
+}
+.card .infocontainer .addToCart button i{
+    color: white;
+    font-size: 1rem;
+}
+
+.card .sellerdetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid lightblue; */
+}
+.card .sellerdetail span{
+    margin: 0;
+    padding: 0rem 0.5rem;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.8);
+    text-align: left;
+}

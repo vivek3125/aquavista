@@ -1,0 +1,65 @@
+.couroselimage {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+.couroselimage .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: -2rem;
+    flex: 1;
+}
+.couroselimage .container .text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+}
+.couroselimage .container .image{
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /* border: 1px solid yellow; */
+
+    /* height: 10rem; */
+}
+.couroselimage .image img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.couroselimage .dotscontainer{
+    /* top: 10rem; */
+    /* top: 5rem; */
+    height: 2rem;
+    /* top: 10rem; */
+    display: flex;
+    justify-content: center;
+    /* padding: 0; */
+    /* z-index: 1; */
+    /* border: 1px solid yellow; */
+}
+.couroselimage .dot i{
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+    line-height: 1rem;
+    color: rgba(255, 255, 255, 0.2);
+    /* border: 1px solid gray; */
+}
+.couroselimage .activedot i{
+    color: rgba(255, 255, 255, 0.8);
+}

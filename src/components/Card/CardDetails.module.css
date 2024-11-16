@@ -1,0 +1,228 @@
+.carddetails {
+    background-color: var(--color-black1);
+    padding: 1rem;
+    /* border: 1px solid lightblue; */
+}
+.carddetails .product{
+    margin-bottom: 2rem;
+    display: flex;
+    /* height: 40rem; */
+    padding: 0;
+    align-items: center;
+    background-color: var(--color-black2);
+    /* border: 1px solid lightblue; */
+}
+.carddetails .product .left{
+    /* height: 100%; */
+    min-width: 40%;
+    max-width: 50%;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+}
+.carddetails .product .left .singleimage{
+    width: 100%;
+    height: 34rem;
+    /* flex: 1; */
+    /* border: 1px solid pink; */
+}
+.carddetails .product .left .singleimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carddetails .product .left .list{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    padding: 0.5rem 0rem;
+    /* border: 1px solid pink; */
+}
+.carddetails .product .left .list .imagebutton{
+    height: 100%;
+    /* width: 6rem; */
+    margin-right: 0.5rem;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    /* border: 1px solid pink; */
+}
+.carddetails .product .left .list .imagebutton:hover{
+    box-shadow: 1px 1px 1px var(--color-button);
+}
+.carddetails .product .left .list .imagebutton img{
+    height: 100%;
+    max-width: 5rem;
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+
+.carddetails .product .right{
+    flex: 1;
+    height: 40rem;
+    /* border: 1px solid brown; */
+    padding: 0rem 1rem;
+    overflow-y: scroll;
+}
+.carddetails .product .right p{
+    /* height: 30rem; */
+    padding: 0;
+    margin: 0;
+}
+.carddetails .product .right .productheading{
+    /* height: 30rem; */
+    color: var(--color-button);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.carddetails .product .right .productauthor{
+    /* height: 30rem; */
+    color: rgb(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.carddetails .product .right .rating{
+    /* height: 30rem; */
+    color: rgb(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+.carddetails .product .right hr{
+    color: rgb(255,255,255,0.8);
+}
+.carddetails .product .right .price{
+    /* height: 30rem; */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.carddetails .product .right .price span{
+    color: var(--color-button);
+}
+.carddetails .product .right .MRP{
+    color: rgb(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration-line:line-through;
+    text-decoration-thickness: 0.01rem;
+}
+.carddetails .product .right .desc{
+    color: rgb(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.carddetails .product .right .productdetails{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.carddetails .product .right .details{
+    display: flex;
+    /* color: white; */
+    /* font-size: 1rem; */
+    /* font-weight: 400; */
+    /* border: 1px solid brown; */
+}
+.carddetails .product .right .details .detailsside{
+    width: 50%;
+    display: flex;
+}
+.carddetails .product .right .details .detailheading{
+    margin-right: 1rem;
+}
+.carddetails .product .right .details .detailheading p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.carddetails .product .right .details .detailvalue{
+    width: 50%;
+}
+.carddetails .product .right .details .detailvalue p{
+    color: rgb(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.carddetails .product .right .cartbutton{
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    background-color: var(--color-button);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid pink; */
+}
+.carddetails .product .right .disable{
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    background-color:rgb(14, 5, 5)   ;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid pink; */
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: black;
+}
+
+.carddetails .product .right .name{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+}
+.carddetails .product .right .name i{
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    color: green;
+}
+
+.cancelbutton{
+    /* margin-right: auto; */
+    /* align-self: flex-start; */
+    border: none;
+    outline: none;
+    background: none;
+}
+.cancelbutton i{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.message{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.showmessage{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 30px;
+}

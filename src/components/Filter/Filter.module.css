@@ -1,0 +1,132 @@
+.filtercomponent{
+    width: 100%;
+    height: 100%;
+    /* overflow-y: auto; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black2);
+}
+
+.heading{
+    /* border: 1px solid rebeccapurple; */
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+    padding: 1rem;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+    padding: 1rem;
+}
+.buyingperiod{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+    padding: 1rem;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+    padding: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.price span, .discount span{
+    font-size: 0.8rem;
+    color: white;
+}
+.buyingperiod label, .language label, .category label{
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+}
+.buyingperiod input, .language input, .category input{
+    margin-right: 0.5rem;
+}
+.buyingperiod label, .language label, .category label{
+    cursor: pointer;
+}
+.buyingperiod label:hover, .language label:hover, .category label:hover{
+    color: var(--color-button);
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.btn button{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 0.2rem;
+    background-color: var(--color-button);
+}
+
+input[type="range"] {
+    -webkit-appearance: none; 
+    width: 100%; 
+    max-width: 15rem;
+    height: 0.2rem; 
+    background-color: #e0e0e0; 
+    border-radius: 0.2rem; 
+    outline: none; 
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1rem;
+    /* background-color: rgb(255, 255, 255, 0.2);  */
+    border-radius: 0.2rem; 
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 1rem; 
+    height: 1rem; 
+    background-color: rgb(255, 255, 255, 0.8); 
+    border-radius: 50%; 
+    border: 5px solid var(--color-button); 
+    cursor: pointer; 
+  }
+input[type="checkbox"], input[type="radio"]{
+    appearance: none; 
+    width: 1rem; 
+    height: 1rem;
+    border-radius: 0.2rem; 
+    border: 1px solid rgb(255, 255, 255, 0.2); 
+    outline: none; 
+    cursor: pointer; 
+}
+input[type="checkbox"]:hover, input[type="radio"]:hover{
+    border: 1px solid var(--color-button); 
+}
+input[type="checkbox"]:checked, input[type="radio"]:checked{
+    background-color: var(--color-button);
+    border-color: var(--color-button); 
+}
+input[type="checkbox"]:checked::before, input[type="radio"]:checked::before{
+    content: '\2713'; 
+  display: inline-block;
+  font-size: 0.8rem; 
+  color: white; 
+  text-align: center; 
+  line-height: 1rem; 
+}

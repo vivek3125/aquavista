@@ -1,0 +1,196 @@
+.yourproducts{
+    display: flex;
+    padding: 2rem 6rem;
+    background-color: var(--color-black1);
+}
+.yourproducts .products {
+    /* padding: 5rem; */
+    /* border: 1px solid lightblue; */
+    /* width: 60%; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--color-black1);
+    /* border: 1px solid gray; */
+}
+
+.yourproducts .sidecard{
+    /* flex: 1; */
+    width: 28%;
+    padding: 1rem;
+    /* border: 1px solid gray; */
+}
+
+.horizontalcard{
+    display: flex;
+    flex-direction: column;
+    /* height: 10rem; */
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background-color: var(--color-black2);
+    /* border: 1px solid purple; */
+    margin-bottom: 0.5rem;
+}
+.horizontalcard:hover{
+    background-color: var(--color-black3);
+}
+.horizontalcard h1{
+    padding: 0;
+    margin: 0;
+}
+.horizontalcard p{
+    padding: 0;
+    margin: 0;
+}
+.horizontalcard .content{
+    display: flex;
+    /* height: 90%; */
+    /* border: 1px solid gray; */
+}
+.horizontalcard .content .image{
+    /* height: 100%; */
+    min-height: 5rem;
+    max-width: 6rem;
+    padding: 0rem 1rem;
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    /* object-fit: cover; */
+}
+.horizontalcard .content .details{
+    /* height: 5rem; */
+    width: 50%;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 0rem 0.5rem;
+    /* border: 1px solid gray; */
+}
+.horizontalcard .content .details .title{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .details .title:hover{
+    cursor: pointer;
+    color: var(--color-button);
+}
+.horizontalcard .content .details .category{
+    width: 50%;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.8);
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .details .language{
+    width: 50%;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.8);
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .amount{
+    width: 20%;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0.5rem;
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .amount .price{
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.8);
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .amount .mrp{
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.8);
+    /* border: 1px solid yellow; */
+}
+
+
+.horizontalcard .content .seller{
+    width: 30%;
+    padding: 0rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* border: 1px solid yellow; */
+}
+.horizontalcard .content .seller .name{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .name i{
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    color: green;
+}
+.horizontalcard .content .seller .contact{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .contact i{
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .address{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .address i{
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .posteddate{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .content .seller .posteddate i{
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255, 0.8);
+}
+.horizontalcard .btn{
+    display: flex;
+    padding-left: 6.5rem;
+    padding-top: 0.5rem;
+    /* border: 1px solid gray; */
+}
+.horizontalcard .btn button{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: none;
+    color: white;
+    /* border: 1px solid gray; */
+    padding: 0;
+    font-weight: 600;
+    margin-right: 4rem;
+}
+.horizontalcard .btn button:hover{
+    color: var(--color-button);
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: white;
+}
